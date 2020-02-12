@@ -1,11 +1,18 @@
 <html lang="fr">
 <head>
-  
+  <link rel="stylesheet" href="style.css" class="rel">
   <meta charset="UTF-8">
   <title>TD1-Addresse IP</title>
+  
 </head>
 <body>
-<img src="subnet3.png" alt="subnet">
+	
+	<div id= imag>
+	  
+		<img src="subnet3.png" alt="subnet"id= "img">
+	</div>
+	<div id= titre> <h2>Décodage d'adresse </h2>
+	
 	<form id="myform">
 
 		<p> <label for ="myIP">AdresseIP</label>
@@ -24,21 +31,40 @@
 		 <input type="reset" value="Annuler">
 		
 	</form>
-	<div id="myIP"></div>
 	
-	<div id="mask"></div>
+	<div id= cont>
+		<div id= demRes>
+			<p>Adresse réseaux : </p>
+			<br>
+			
+			<p>Première adresse : </p>
+			<br>
+			<p>Broadcast : </p>
+			<br>
+			<p>Dernière adresse : </p>
+			<br>
+			<p>Nombre d'adresse : </p>
+		
+		</div>
+		
+		
+			<!-- <p>salut1</p><p id="myIP"></p> -->
+		
+			<!-- <p>salut2</p><p id="mask"></p> -->
+		
+			<div id="adrN"><p><br></p></div>
+			
+			<div id="First"><p><br></p></div>
+			
+			<div id="Broadcast"><p><br></p></div>
+		
+			<div id="Last"><p><br></p></div>
+			
+			<div id="Nb"><p><br></p></div>
+		</div>
 	
-	<div id="adrN"></div>
-	
-	<div id="First"></div>
-	
-	<div id="Broadcast"></div>
-	
-	<div id="Last"></div>
-	<div id="Nb"></div>
-	
-	
-	
+	</div>
+	<div id= pied></div>
 <!-- --- -->
 
 <script>
