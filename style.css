@@ -42,6 +42,17 @@
 	padding : 5px;
 	
 }
+#mask{
+	font-family: arial, verdana, sans-serif;
+	font-size : 16px;
+	margin-right: 50%;
+	position : relative ;
+	left:230px;
+	bottom: 230px ;
+	
+	padding : 5px;
+	
+}
 
 #adrN{
 	font-family: arial, verdana, sans-serif;
@@ -49,7 +60,7 @@
 	margin-right: 50%;
 	position : relative ;
 	left:285px;
-	bottom: 175px ;
+	bottom: 215px ;
 	
 	padding : 5px;
 }
@@ -59,7 +70,7 @@
 	margin-right: 50%;
 	position : relative ;
 	left:295px;
-	bottom: 170px ;
+	bottom: 210px ;
 	
 	padding : 5px;
 }
@@ -70,7 +81,7 @@
 	margin-right: 50%;
 	position : relative ;
 	left:245px;
-	bottom: 160px ;
+	bottom: 200px ;
 	
 	padding : 5px;
 }
@@ -80,7 +91,7 @@
 	margin-right: 50%;
 	position : relative ;
 	left:290px;
-	bottom: 150px ;
+	bottom: 18px ;
 	
 	padding : 5px;
 }
@@ -91,7 +102,7 @@
 	margin-right: 50%;
 	position : relative ;
 	left:295px;
-	bottom: 140px ;
+	bottom: 180px ;
 	
 	padding : 5px;
 }
